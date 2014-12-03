@@ -1,0 +1,5 @@
+.idea/
+.bower-cache/
+.bower-registry/
+.bower-tmp/
+bower_components/

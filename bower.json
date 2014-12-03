@@ -1,0 +1,44 @@
+{
+    "name": "ent-cm",
+    "version": "0.0.0",
+    "homepage": "https://github.com/gmsewell6/ent-cm",
+    "authors": [
+        "garrett <garrett@entrinsik.com>"
+    ],
+    "description": "internal custom bower config for CodeMirror/codemirror.git for importing only the classes we need without the need to fork CodeMirror repo",
+    "main": [
+        "lib/codemirror.js",
+        "lib/codemirror.css",
+        "mode/css/css.js",
+        "mode/htmlmixed/htmlmixed.js",
+        "mode/htmlembedded/htmlembedded.js",
+        "mode/javascript/javascript.js",
+        "mode/sql/sql.js",
+        "mode/xml/xml.js",
+        "theme/eclipse.css",
+        "addon/comment/*.js",
+        "addon/dialog/*.js",
+        "addon/edit/*.js",
+        "addon/fold/*.js",
+        "addon/comment/*.js",
+        "addon/hint/*.js",
+        "addon/lint/*.js",
+        "addon/selection/*.js",
+        "addon/**/*.css"
+    ],
+    "keywords": [
+        "ent-cm"
+    ],
+    "license": "MIT",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "angular-ui-codemirror": "~0.1.6"
+    }
+}
