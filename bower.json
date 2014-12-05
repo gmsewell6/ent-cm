@@ -7,8 +7,6 @@
     ],
     "description": "internal custom bower config for CodeMirror/codemirror.git for importing only the classes we need without the need to fork CodeMirror repo",
     "main": [
-        "../codemirror/lib/codemirror.js",
-        "../codemirror/lib/codemirror.css",
         "../codemirror/mode/css/css.js",
         "../codemirror/mode/htmlmixed/htmlmixed.js",
         "../codemirror/mode/htmlembedded/htmlembedded.js",
