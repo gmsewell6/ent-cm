@@ -7,24 +7,26 @@
     ],
     "description": "internal custom bower config for CodeMirror/codemirror.git for importing only the classes we need without the need to fork CodeMirror repo",
     "main": [
-        "lib/codemirror.js",
-        "lib/codemirror.css",
-        "mode/css/css.js",
-        "mode/htmlmixed/htmlmixed.js",
-        "mode/htmlembedded/htmlembedded.js",
-        "mode/javascript/javascript.js",
-        "mode/sql/sql.js",
-        "mode/xml/xml.js",
-        "theme/eclipse.css",
-        "addon/comment/*.js",
-        "addon/dialog/*.js",
-        "addon/edit/*.js",
-        "addon/fold/*.js",
-        "addon/comment/*.js",
-        "addon/hint/*.js",
-        "addon/lint/*.js",
-        "addon/selection/*.js",
-        "addon/**/*.css"
+        "../codemirror/lib/codemirror.js",
+        "../codemirror/lib/codemirror.css",
+        "../codemirror/mode/css/css.js",
+        "../codemirror/mode/htmlmixed/htmlmixed.js",
+        "../codemirror/mode/htmlembedded/htmlembedded.js",
+        "../codemirror/mode/javascript/javascript.js",
+        "../codemirror/mode/sql/sql.js",
+        "../codemirror/mode/xml/xml.js",
+        "../codemirror/addon/comment/*.js",
+        "../codemirror/addon/dialog/*.js",
+        "../codemirror/addon/display/placeholder.js",
+        "../codemirror/addon/edit/*.js",
+        "../codemirror/addon/fold/*.js",
+        "../codemirror/addon/comment/*.js",
+        "../codemirror/addon/hint/show-hint.js",
+        "../codemirror/addon/hint/javascript-hint.js",
+        "../codemirror/addon/hint/sql-hint.js",
+        "../codemirror/addon/lint/*.js",
+        "../codemirror/addon/selection/*.js",
+        "../codemirror/addon/**/*.css"
     ],
     "keywords": [
         "ent-cm"
@@ -39,6 +41,6 @@
         "tests"
     ],
     "dependencies": {
-        "angular-ui-codemirror": "~0.1.6"
+        "angular-ui-codemirror": "bower"
     }
 }
