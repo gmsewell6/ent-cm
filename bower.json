@@ -15,6 +15,7 @@
         "../codemirror/mode/xml/xml.js",
         "../codemirror/addon/comment/*.js",
         "../codemirror/addon/dialog/*.js",
+        "../codemirror/addon/display/fullscreen.js",
         "../codemirror/addon/display/placeholder.js",
         "../codemirror/addon/edit/*.js",
         "../codemirror/addon/fold/*.js",
