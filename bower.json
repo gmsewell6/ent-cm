@@ -25,7 +25,8 @@
         "../codemirror/addon/hint/sql-hint.js",
         "../codemirror/addon/lint/*.js",
         "../codemirror/addon/selection/*.js",
-        "../codemirror/addon/**/*.css"
+        "../codemirror/addon/**/*.css",
+        "../codemirror/lib/*.css"
     ],
     "keywords": [
         "ent-cm"
